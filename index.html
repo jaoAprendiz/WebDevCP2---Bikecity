@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Home - Bikecity</title>
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Bikecity</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="sobre.html" onclick="alternarCores">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="login.html"><button id="login__btn">Login</button></a>
+    </header>
+
+    <section id="banner">
+        <img id="imgbanner">
+    </section>
+
+    <section id="card-section">
+        <div class="card">
+            <img src="img/bike1.jpg" alt="yamaha YDX Moro 05">
+            <div>
+                <h1>Duos Confort FULL 800W 48V 15Ah</h1>
+                <h2>Consumo de eletricidade é de apenas 2 centavos por quilometro rodado!</h2>
+                <span>R$ 5.773,95</span>
+                <button onclick="redirect1()">Saiba mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/bike2.jpg" alt="yamaha YDX Moro 05">
+            <div>
+                <h1>Shimano Impact Race 2023</h1>
+                <h2>Uma bike para quem quer superar os limites!</h2>
+                <span>R$ 10.990,00</span>
+                <button onclick="redirect2()">Saiba mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/bike3.jpg" alt="yamaha YDX Moro 05">
+            <div>
+                <h1>Sense Activ 2021/2022</h1>
+                <h2>Para você, que valoriza a mobilidade urbana e ainda quer aproveitar sua bike para a prática esportiva.</h2>
+                <span>R$ 3.290,00</span>
+                <button onclick="redirect3()">Saiba mais</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Bikecity © 2024 - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- JAVASCRIPT EXTERNO-->
+    <script src="script.js"></script>
+</body>
+</html>
