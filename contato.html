@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilocontato.css">
     <title>Contato - Bikecity</title>
 </head>
 <body>
@@ -20,7 +21,20 @@
     </header>
 
     <section id="contato__conteudo">
-        
+        <p>preencha esse formulario</p>
+        <form id="form">
+            <label for="name">Nome:</label>
+            <input type="text"  id="name">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+
+            <label for="telephone">Telefone:</label>
+            <input type="tel"  id="telefone">
+            
+            <button type="submit">Enviar</button>
+
+        </form>
     </section>
 
     <footer>
@@ -29,5 +43,6 @@
 
     <!-- JAVASCRIPT EXTERNO-->
     <script src="script.js"></script>
+    <script src="scriptcontato.js" defer></script>
 </body>
 </html>
