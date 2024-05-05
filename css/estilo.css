@@ -9,6 +9,26 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ESTILIZAÇÃO DO BACKGROUND DA PÁGINA */
+.cor1 {
+    background-color: #fff;
+    transition: all 0.25s ease-in-out;
+}
+
+.cor2 {
+    background-color: #A3CEEF;
+    transition: all 0.25s ease-in-out;
+}
+
+.cor3 {
+    background-color: #7BB4E3;
+    /* background-color: red; */
+    transition: all 0.25s ease-in-out;
 }
 
 /* ESTILIZAÇÃO DA PÁGINA*/
@@ -159,25 +179,9 @@ section {
     cursor: pointer;
 }
 
-/* ESTILIZAÇÃO DO BACKGROUND DA PÁGINA */
-.cor1 {
-    background-color: #fff;
-    transition: all 0.25s ease-in-out;
-}
-
-.cor2 {
-    background-color: #A3CEEF;
-    transition: all 0.25s ease-in-out;
-}
-
-.cor3 {
-    background-color: #7BB4E3;
-    /* background-color: red; */
-    transition: all 0.25s ease-in-out;
-}
-
 /* ESTILIZAÇÃO DO FOOTER */
 footer {
+    margin-top: auto;
     background-color: #006DB2;
     padding: 50px;
     text-align: center;
@@ -240,4 +244,105 @@ footer {
 .conteudoDesenvolvimento__direito {
     width: 50%;
     margin: 40px;
+}
+
+/* ESTILIZAÇÃO DA PÁGINA DE CONTATO */
+#contato__conteudo form{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 500px;
+    margin: 0% auto;
+}
+
+#contato__conteudo h1{
+    text-align:center;
+}
+
+#contato__conteudo label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contato__conteudo input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+#contato__conteudo button{
+    padding:10px ;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 1.1rem;
+    cursor:pointer;
+}
+
+#contato__conteudo button:hover {
+    background-color: #006DB2;
+}
+
+#footer-contato {
+    position: sticky;
+    bottom: 0;
+}
+
+/* ESTILIZAÇÃO DA PÁGINA DE LOGIN */
+#login__conteudo form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 500px;
+    margin: 0% auto;
+}
+
+#login__conteudo h1 {
+    text-align: center;
+}
+
+#login__conteudo label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#login__conteudo input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+#login__conteudo button{
+    padding:10px ;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 1.1rem;
+    cursor:pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+#login__conteudo button:hover {
+    background-color: #006DB2;
+}
+
+/* ESTILIZANDO A PÁGINA QUIZ */
+#section-quiz {
+    height: 100vh;
+}
+
+#section-quiz h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+#footer-quiz {
+    position: sticky;
+    bottom: 0;
 }
