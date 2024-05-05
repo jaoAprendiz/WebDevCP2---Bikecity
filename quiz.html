@@ -9,66 +9,31 @@
 <body>
     
     <header>
-        <script>
-            // Definindo as perguntas e respostas
-            var perguntas = [
-                "Qual é o inventor da bicicleta?",
-                "Em que ano a bicicleta foi inventada?",
-                "Qual é o componente fundamental da bicicleta que foi inventado em 1888 por John Boyd Dunlop?",
-                "O que é um quadro de bicicleta feito de?",
-                "Qual é o tipo de bicicleta projetado para ser usado em terrenos acidentados?",
-                "Qual é o nome do evento esportivo de ciclismo mais famoso do mundo?",
-                "O que significa a sigla 'MTB'?",
-                "O que é um 'pelotão' no ciclismo?",
-                "Quantos estágios tem o Tour de France?",
-                "Qual é a vantagem de usar uma bicicleta dobrável?"
-            ];
-            
-            var respostas = [
-                "Karl Drais",
-                "1817",
-                "Pneu",
-                "Alumínio, aço, carbono, etc.",
-                "Mountain bike (MTB)",
-                "Tour de France",
-                "Mountain Bike",
-                "Grupo de ciclistas competindo juntos",
-                "21",
-                "Facilidade de transporte e armazenamento"
-            ];
-            
-            // Função para iniciar o quiz
-            function iniciarQuiz() {
-                var pontuacao = 0;
-            
-                // Loop para fazer as perguntas
-                for (var i = 0; i < perguntas.length; i++) {
-                    var respostaUsuario = prompt(perguntas[i]);
-            
-                    // Verifica se a resposta do usuário está correta
-                    if (respostaUsuario.toLowerCase() === respostas[i].toLowerCase()) {
-                        pontuacao++;
-                    }
-                }
-            
-                // Mostra a pontuação na tela
-                document.body.innerHTML += "<h2>Você acertou " + pontuacao + " de " + perguntas.length + " perguntas!</h2>";
-            }
-            
-            // Inicia o quiz quando a página carrega
-            window.onload = iniciarQuiz;
-            </script>
+        <header id="header">
+            <a href="index.html" class="logo">Bikecity</a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="login.html"><button id="login__btn">Login</button></a>
     </header>
 
-    <section>
-
+    <section id="section-quiz">
+        <h1 id="resultado"></h1>
     </section>
 
-    <footer>
+    <footer id="footer-quiz">
         <p>Bikecity © 2024 - Todos os direitos reservados</p>
     </footer>
 
     <!-- JAVASCRIPT EXTERNO -->
     <script src="script.js"></script>
+    <script>
+        // Inicia o quiz quando a página carrega
+        window.onload = iniciarQuiz();
+    </script>
 </body>
 </html>
