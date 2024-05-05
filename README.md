@@ -1,4 +1,7 @@
-# Link do Repositório: [Bikecity](https://github.com/siigAprendiz/WebDevCP2---Bikecity)
+### Link do Repositório: [Bikecity](https://github.com/siigAprendiz/WebDevCP2---Bikecity)
+### Link do projeto no gitPages: [Bikecity](https://siigaprendiz.github.io/WebDevCP2---Bikecity/)
+
+---
 
 # Bikecity
 
