@@ -37,10 +37,10 @@ Se você deseja contribuir com o projeto Bikecity, siga estas etapas:
 
 ## Autor
 
-Este projeto foi desenvolvido por [João Victor Soave](https://github.com/siigAprendiz).
-Este projeto foi desenvolvido por [Felipe Nascimento](https://github.com/felipe3103).
-Este projeto foi desenvolvido por [Gustavo Henrique Martins](https://github.com/gustavo190805).
-Este projeto foi desenvolvido por [Henrique Ignacio Bartolo](https://github.com/henriqueignacio).
+- Este projeto foi desenvolvido por [João Victor Soave](https://github.com/siigAprendiz).
+- Este projeto foi desenvolvido por [Felipe Nascimento](https://github.com/felipe3103).
+- Este projeto foi desenvolvido por [Gustavo Henrique Martins](https://github.com/gustavo190805).
+- Este projeto foi desenvolvido por [Henrique Ignacio Bartolo](https://github.com/henriqueignacio).
 
 ## Licença
 
