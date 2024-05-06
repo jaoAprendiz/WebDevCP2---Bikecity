@@ -1,6 +1,6 @@
 ### Link do Repositório: [Bikecity](https://github.com/siigAprendiz/WebDevCP2---Bikecity)
 ### Link do projeto no gitPages: [Bikecity](https://siigaprendiz.github.io/WebDevCP2---Bikecity/)
-### Link do projeto no Linkedin: [Bikecity]()
+### Link do projeto no Linkedin: [Bikecity](https://www.linkedin.com/posts/felipe-fernandes-b303132bb_ol%C3%A1-venho-aqui-apresentar-meu-projeto-orientado-activity-7193065853540569089-0pw8?utm_source=share&utm_medium=member_ios)
 
 ---
 
