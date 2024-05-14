@@ -29,7 +29,6 @@ O Bikecity foi desenvolvido utilizando as seguintes tecnologias:
 - HTML5
 - CSS3
 - JavaScript
-- Framework XYZ (opcional, se houver um framework específico utilizado)
 
 ## Como Contribuir
 
